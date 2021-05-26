@@ -1,3 +1,7 @@
-function App({ name }) {
-	return `<h1>${name}</h1>`;
-}
+const App = ({ name }) => {
+	return `
+    <h2> Welcome, ${name} </h2>
+    `;
+};
+
+export default App;
